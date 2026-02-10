@@ -1,96 +1,88 @@
-// tipos de dados
-// No java Script, tudo o que armazenamos em variaveis tem um tipo. Esses tipo definem o que podemos fazer com os valores
+//Kauã Teles - JavaScript
 
-// Principais tipos de dados
-// String (texto)
-// Number (Números)
-// Boolean (verdadeiro ou falso)
-// Object (objetos, que agrupam informações)
-// Array (lista de valores)
-// Null (valor vazio)
-// Undefined (quando algo nao foi definido)
+//Exercício 1
+let usuario = {
+    login: "admin",
+    senha: 1234,
+    tipo: "fraca"
+}
+console.log(`O login do administrador é ${usuario.login} e a senha é ${usuario.senha}, muito ${usuario.tipo} por sinal`)
 
-// String 
-// Sempre é escrita entre aspas ("" ou ''
+//Exercício 2
+let aluno = {
+    nome: "Kauã",
+    curso: "DEV",
+    turma: "DSI3 SESI"
+}
+console.log(`O aluno ${aluno.nome} está matriculado no curso de ${aluno.curso}, na turma ${aluno.turma}`)
 
-//um boolean pode ter apenas dois valores, sendo eles true or false
-// let maiordeIdade = true
-// let menordeIdade = false
-// console.log(maiordeIdade)
-// console.log(menordeIdade)
+//Exercicio 3
+let professor = {
+    nome: "Thiago",
+    disciplina: "matemática",
+    turno: "manhã"
+}
+console.log(`O Professor ${professor.nome} ministra a disciplina de ${professor.disciplina}, no turno ${professor.turno}`)
 
-// camel case -- mais famosa
-// primeira palavra minuscula
-// palavras seguintes começam com maiúscula
-// let IdadeUsuario = undefined
+//Exercicio 4 
+let empresa = {
+    nome: "Tech Solutions",
+    área: "Tecnologia",
+    cidade: "Fortaleza"
+}
+console.log(`A empresa ${empresa.nome} atua na área de ${empresa.área}, e fica em ${empresa.cidade}`)
 
-// pascalcase
-// todas as plavras começam com letra maiuscula 
-// usada para classes, construtores e componentes
-// class UsuarioSistema {
-//     constructor(nome, idade) {
-//         this.nome = nome
-//         this.idade = idade
-//     }
-// }
+//Exercicio 5
+let computador = {
+    marca: "Dell",
+    processador: "Intel I5",
+    memória: "8GB"
+}
+console.log(`O computador da marca ${computador.marca} possui processador ${computador.processador} e memória de  ${computador.memória}`)
 
-// Snake case
-// palvras separadas por underscore_
-// tudo minusculo
-// muitoooo comum no python, banco de dados e APIs
-// let nome_completo_casado
+//Exercicio 6 
+let Livro = {
+    Titulo: "JavaScript Básico",
+    Autor: " Ana Silva",
+    páginas: "200 paginas"
+}
+console.log(`O livro ${Livro.Titulo} foi escrito por ${Livro.Autor} e possui ${Livro.páginas}`)
 
-// kebab case
-// palavras separadas por hifen
-// nao funciona como nome de variavel no JavaScript
-// <divclass="menu-principal"></div>
-
-//Strings
-let nome = "Kaua"
-console.log("meu nome é " + nome)
-
-let sobrenome = "Teles"
-console.log("meu sobrenome é " + sobrenome)
-
-console.log(`meu nome é ${nome} ${sobrenome}`)
-
-let escola = "SESI"
-console.log("Minha escola é o " + escola)
-
-let a = "O Santos é "
-let b = "o maior time brasileiro"
-console.log(a + b)
-
-console.log("Bem vindo " + nome)
-
-let texto = "Programar"
-console.log(texto.length) 
-
-console.log("oi".toUpperCase())
-
-console.log("OI".toUpperCase())
-
-let cidade = "Guarulhos"
-console.log( "eu moro em " + cidade)
-
-//number
-let n1 = 20
-let n2 = 5
-console.log(n1 + n2)
-
-console.log(n1-n2)
-
-console.log(n1 * n2)
-
-console.log(n1/n2)
+//Exercicio 7
+let Filme = {
+    nome: "Matrix",
+    genero: "Ficção",
+    ano: "1999"
+}
+console.log(`O Filme ${Filme.nome} é do genero ${Filme.genero} e foi lançado em ${Filme.ano}`)
 
 
-//boolean
-let ativo = true
-console.log(ativo)
+//Exercicio 8
+let Jogo = {
+    Nome: "Minecraft",
+    plataforma: "PC",
+    genero: "Sandbox"
+}
+console.log(`O jogo ${Jogo.Nome} roda na plataforma ${Jogo.plataforma} e pertence ao gênero ${Livro.genero}`)
 
-let numero = 9
-console.log(numero > 10)
+//Exercicio 9
+let ContaDeUsuario = {
+    Usuario: "Eduardo",
+    senha: "1234",
+    nivel: "Administrador"
+}
+console.log(`O ${ContaDeUsuario.Usuario} possui nível ${ContaDeUsuario.nivel}  e utiliza a senha  ${ContaDeUsuario.senha}, muito fraca por sinal`)
 
-let idade = 20 
-console.log(idade >= 18)
+//Exercicio 10
+let Escola = {
+    Nome: "EEEP",
+    cidade: "Fortaleza",
+    turno: "manha"
+}
+console.log(`A escola ${Escola.Nome} funciona na cidade de ${Escola.cidade} no turno da ${Escola.turno}`)
+
+
+
+
+
+
